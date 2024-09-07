@@ -11,13 +11,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/akita/aosp_akita.mk)
 $(call inherit-product, device/google/zuma/lineage_common.mk)
+# $(call inherit-product, vendor/gms/products/gms.mk)
 
 include device/google/akita/akita/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8a
-PRODUCT_NAME := lineage_akita
+PRODUCT_NAME := sigma_akita
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
