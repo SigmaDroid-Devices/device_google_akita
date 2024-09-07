@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# Face Unlock
+-include vendor/google/faceunlock/device.mk
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/akita-kernel/Image.lz4
 
